@@ -4,8 +4,7 @@
   "description": "promiseMethod and transactional decorators",
   "main": "build/index.js",
   "scripts": {
-    "build-cleanup": "rm -rf build/",
-    "postinstall": "npm run build-cleanup && ./node_modules/.bin/babel -d build/ src/"
+    "postinstall": "../.bin/babel -d build/ src/"
   },
   "repository": {
     "type": "git",
