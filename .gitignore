@@ -1,0 +1,7 @@
+.idea
+*.map
+node_modules
+.DS_Store
+build
+*.log
+
